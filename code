@@ -1,0 +1,11 @@
+megabytes = int(input())
+months = int(input())
+
+excess = 0
+
+for i in range(0,months):
+    spent = int(input())
+    excess = excess + megabytes - spent
+         
+        
+print (excess + megabytes)
